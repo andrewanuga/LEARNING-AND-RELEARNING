@@ -1,3 +1,7 @@
+def main():
+    nums = [3,4,5,1,2]
+    return check(nums)
+
 def check(array):
     arr1 = array
     length = len(arr1)
@@ -12,5 +16,5 @@ def check(array):
     
     return drop_count <= 1
 
-nums = [3,4,5,1,2]
-print(check(nums))
+
+print(main())
