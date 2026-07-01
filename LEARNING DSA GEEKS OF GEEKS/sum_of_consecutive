@@ -1,0 +1,15 @@
+def main():
+    n = 8
+    print(sumOfConsecutive(n))
+
+def sumOfConsecutive(n):
+    if n == 1:
+        return False
+    
+    if (n &(n - 1) == 0):
+        return False
+    
+    return True
+
+if __name__ == "__main__":
+    main()
