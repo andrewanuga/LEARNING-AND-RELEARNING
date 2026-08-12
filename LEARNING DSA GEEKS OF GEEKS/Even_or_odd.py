@@ -15,3 +15,7 @@ def even_or_odd(number):
     return "Odd"
 
 print(main())
+
+
+def is_even(num):
+    return 1 if num % 2 == 0 else 0
